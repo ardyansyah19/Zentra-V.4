@@ -34,6 +34,25 @@ akan otomatis dibuat dan diisi data contoh saat pertama kali dijalankan.
 - `GET /api/users` (admin), `PUT /api/users/me`, `/api/users/me/addresses`
 - `GET /api/dashboard/stats` (admin — untuk grafik & ringkasan)
 
+- ## Endpoint Utama
+
+- `POST /api/auth/login`, `POST /api/auth/register`, `GET /api/auth/me`
+- `GET/POST/PUT/DELETE /api/products`, `PATCH /api/products/:id/stock`
+- `GET/POST /api/orders`, `PATCH /api/orders/:id/status`
+- `GET/POST/PUT/DELETE /api/cart`
+- `GET/POST/DELETE /api/favorites`
+- `GET /api/users` (admin), `PUT /api/users/me`, `/api/users/me/addresses`
+- `GET /api/dashboard/stats` (admin — untuk grafik & ringkasan)
+- ## Endpoint Utama
+
+- `POST /api/auth/login`, `POST /api/auth/register`, `GET /api/auth/me`
+- `GET/POST/PUT/DELETE /api/products`, `PATCH /api/products/:id/stock`
+- `GET/POST /api/orders`, `PATCH /api/orders/:id/status`
+- `GET/POST/PUT/DELETE /api/cart`
+- `GET/POST/DELETE /api/favorites`
+- `GET /api/users` (admin), `PUT /api/users/me`, `/api/users/me/addresses`
+- `GET /api/dashboard/stats` (admin — untuk grafik & ringkasan)
+
 ## Realtime Events (Socket.io)
 
 - `product:created`, `product:updated`, `product:deleted`
