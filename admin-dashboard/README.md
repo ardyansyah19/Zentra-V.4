@@ -13,6 +13,22 @@ npm install
 cp .env.example .env
 npm run dev
 ```
+## Menjalankan
+
+```bash
+cd admin-dashboard
+npm install
+cp .env.example .env
+npm run dev
+```
+## Menjalankan
+
+```bash
+cd admin-dashboard
+npm install
+cp .env.example .env
+npm run dev
+```
 
 Buka `http://localhost:5173`, lalu login dengan:
 
